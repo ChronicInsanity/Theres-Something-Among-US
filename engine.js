@@ -5,7 +5,7 @@ var VIDEO_PATH = "https://dl.dropbox.com/s/";
 
 //once you reach the end of the clip select the first choice (true)
 //if false disables the bar
-var AUTOCHOICE = true;
+var AUTOCHOICE = false;
 //allows players to pause the video
 var VIDEO_PAUSE = true;
 //allows pausing when the choices are on
@@ -21,7 +21,7 @@ var ANIMATED = true;
 var INSTANT_CHOICES = false;
 //preload all the videos or just the next choices?
 //if true you are 99% the playback will be smooth but it may be a lot to load
-var PRELOAD_ALL = false;
+var PRELOAD_ALL = true;
 //activates the browser base video control, not generally recommended 
 //as it would visually interfere with the choices overlay 
 var DEFAULT_VIDEO_CONTROLS = false;
